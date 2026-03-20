@@ -1,0 +1,42 @@
+:root {
+  font-family: 'Space Grotesk', 'Avenir Next', 'Segoe UI Variable', 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1e1a17;
+  background:
+    radial-gradient(circle at top left, rgba(255, 210, 144, 0.45), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(126, 187, 164, 0.32), transparent 30%),
+    linear-gradient(180deg, #f8f1e7 0%, #efe8dc 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
